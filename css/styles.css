@@ -33,7 +33,7 @@ padding-left: 15px;
 padding-right: 15px;
 margin: 0 auto;
 margin-left: auto;
-margin-right: au;
+margin-right: auto;
 }
 
 .header-container{display: flex;
@@ -56,7 +56,7 @@ font-family: Raleway;
 font-style: normal;
 font-weight: bold;
 font-size: 26px;
-line-height: 31px;
+line-height: 1.19;
 letter-spacing: 0.03em;
 color: #2196F3;
 }
@@ -66,7 +66,7 @@ font-family: Raleway;
 font-style: normal;
 font-weight: bold;
 font-size: 26px;
-line-height: 31px;
+line-height: 1.19;
 letter-spacing: 0.03em;
 color: #000000;
 }
@@ -75,14 +75,14 @@ color: #000000;
 
 .header
 {height: 80px;
-  margin-left: auto;
-  margin-right: auto;
-  border-bottom: 1px solid #ECECEC;;
+margin-left: auto;
+margin-right: auto;
+border-bottom: 1px solid #ECECEC;;
 }
 
 .menu-list{
-  display: flex;
-  align-items: center;
+display: flex;
+align-items: center;
 }
 
 .menu-itom:not(:last-child){
@@ -90,13 +90,13 @@ margin-right: 50px;
 }
 
 .menu-link {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  color: #212121;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #212121;
 }
 
 .menu-link:hover,
@@ -128,13 +128,14 @@ font-family: Roboto;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.02em;
 color: #757575;
 }
+
 .tel-link:hover,
 .tel-link:focus{
-  color: var(--accent-color);
+color: var(--accent-color);
 }
 
 /*=====END HEADER=====*/
@@ -166,7 +167,7 @@ font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 900;
 font-size: 44px;
-line-height: 60px;
+line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
@@ -174,7 +175,6 @@ color: #FFFFFF;
 margin-top: 0;
 margin-bottom: 0;
 }
-
 
 .modal-btn{
 font-family: 'Roboto', sans-serif;
@@ -210,7 +210,7 @@ cursor: pointer;
 margin-left: auto;
 margin-right: auto;
 padding-top: 94px;
-margin-bottom: 47px;
+padding-bottom: 47px;
 }
 
 .boxs{
@@ -235,7 +235,7 @@ margin-right: 30px;
 font-family: 'Roboto', sans-serif;
 font-weight: bold;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #212121;
@@ -252,19 +252,18 @@ color: #757575;
 
 /*=====PROJECTS=====*/
 
-.projects-section{
+.projects{
 padding-top: 47px;
 padding-bottom: 94px;
 margin-left: auto;
 margin-right: auto;
 }
 
-
 .projects-section-list{
 font-family: 'Roboto', sans-serif;
 font-weight: bold;
 font-size: 36px;
-line-height: 42px;
+line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
@@ -273,7 +272,7 @@ margin-bottom: 50px;
 }
 
 .projects-section-img{
-  display: flex;
+display: flex;
 flex-direction: row;
 justify-content: space-between;
 }
@@ -290,7 +289,6 @@ padding-top: 94px;
 padding-bottom: 94px;
 }
 
-
 .our-team-list-img{
 display: flex;
 flex-direction: row;
@@ -305,7 +303,7 @@ margin-right: auto;
 font-family: 'Roboto', sans-serif;
 font-weight: bold;
 font-size: 36px;
-line-height: 42px;
+line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
@@ -326,7 +324,7 @@ text-align: center;
 font-family: 'Roboto', sans-serif;
 font-weight: 500;
 font-size: 16px;
-line-height: 19px;
+line-height: 1.18;
 color: #212121;
 margin: 0px;
 margin-bottom: 10px;
@@ -345,7 +343,7 @@ border-radius: 0px 0px 4px 4px;
 font-family: 'Roboto', sans-serif;
 font-weight: normal;
 font-size: 16px;
-line-height: 19px;
+line-height: 1.18;
 color: #757575;
 margin: 0;
 }
@@ -364,7 +362,7 @@ margin-right: auto;
 }
 
 .footer-logo{
-padding-bottom: 20px;
+margin-bottom: 20px;
 }
 
 .footer-logo-text{
@@ -372,7 +370,7 @@ font-family: Raleway;
 font-style: normal;
 font-weight: bold;
 font-size: 26px;
-line-height: 31px;
+line-height: 1.19;
 letter-spacing: 0.03em;
 color: #2196F3;
 }
@@ -382,7 +380,7 @@ font-family: Raleway;
 font-style: normal;
 font-weight: bold;
 font-size: 26px;
-line-height: 31px;
+line-height: 1.19;
 letter-spacing: 0.03em;
 color: #FFFFFF;;
 }
@@ -392,10 +390,10 @@ font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.71;
 letter-spacing: 0.03em;
 color: #FFFFFF;
-padding-bottom: 9px;
+margin-bottom: 9px;
 }
 
 .maps-link:hover,
@@ -412,9 +410,10 @@ font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.71;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
+margin-bottom: 9px;
 }
 
 .footer-mail:hover,
@@ -427,7 +426,7 @@ font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.71;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 cursor: pointer;
@@ -471,20 +470,16 @@ padding-bottom: 6px;
 font-family: Roboto, sans-serif;
 font-weight: 500;
 font-size: 16px;
-line-height: 26px;
+line-height: 1.62;
 letter-spacing: 0.03em;
 color: #212121;
 margin-right: 8px;
+border: 0px;
 }
 
 .button:nth-last-child() {
-  margin-right: 0;
+margin-right: 0;
 }
-
-
-
-
-
 
 .button:hover,
 .button:focus{
@@ -504,9 +499,9 @@ margin-top: -30px;
 }
 
 .cards-boxs{
-  margin-left: 30px;
-  margin-top: 30px;
-  flex-basis: 370px;
+margin-left: 30px;
+margin-top: 30px;
+flex-basis: 370px;
 }
 .cards-itom{
 font-family: 'Roboto', sans-serif;
